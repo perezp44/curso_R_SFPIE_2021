@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://perezp44.github.io/curso_R_SFPIE_2021.web/01-guia-del-curso.html</loc>
+    <loc>https://perezp44.github.io/curso_R_SFPIE_2021/01-guia-del-curso.html</loc>
     <lastmod>2021-04-20T16:26:40+02:00</lastmod>
   </url>
   <url>
-    <loc>https://perezp44.github.io/curso_R_SFPIE_2021.web/02-logistica.html</loc>
+    <loc>https://perezp44.github.io/curso_R_SFPIE_2021/02-logistica.html</loc>
     <lastmod>2021-04-20T17:19:49+02:00</lastmod>
   </url>
   <url>
-    <loc>https://perezp44.github.io/curso_R_SFPIE_2021.web/03-calendario.html</loc>
-    <lastmod>2021-03-21T14:18:16+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://perezp44.github.io/curso_R_SFPIE_2021.web/04-tutoriales.html</loc>
+    <loc>https://perezp44.github.io/curso_R_SFPIE_2021/04-tutoriales.html</loc>
     <lastmod>2021-04-20T17:16:24+02:00</lastmod>
   </url>
   <url>
-    <loc>https://perezp44.github.io/curso_R_SFPIE_2021.web/05-mas-cosas.html</loc>
+    <loc>https://perezp44.github.io/curso_R_SFPIE_2021/05-mas-cosas.html</loc>
     <lastmod>2021-04-17T22:05:59+02:00</lastmod>
   </url>
   <url>
-    <loc>https://perezp44.github.io/curso_R_SFPIE_2021.web/about.html</loc>
-    <lastmod>2021-04-16T16:38:40+02:00</lastmod>
-  </url>
-  <url>
-    <loc>https://perezp44.github.io/curso_R_SFPIE_2021.web/</loc>
-    <lastmod>2021-04-20T16:36:00+02:00</lastmod>
+    <loc>https://perezp44.github.io/curso_R_SFPIE_2021/</loc>
+    <lastmod>2021-04-20T17:51:29+02:00</lastmod>
   </url>
 </urlset>

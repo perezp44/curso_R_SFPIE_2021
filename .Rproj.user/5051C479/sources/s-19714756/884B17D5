@@ -3,7 +3,7 @@
     "path": "~/Escritorio/curso_R_SFPIE_2021.web/_site.yml",
     "project_path": "_site.yml",
     "type": "yaml",
-    "hash": "0",
+    "hash": "2507701811",
     "contents": "",
     "dirty": false,
     "created": 1618928227839.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "33,4",
-        "scrollLine": "12"
+        "cursorPosition": "0,36",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1618932779,
+    "lastKnownWriteTime": 1618934091,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1618932779525,
+    "last_content_update": 1618934091436,
     "read_only": false,
     "read_only_alternatives": []
 }
