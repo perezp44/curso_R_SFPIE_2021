@@ -21,7 +21,7 @@ navbar:
     - text: "Logística"
       href: 02-logistica.html
     - text: "MATERIALES"
-      href: 04-tutoriales.html
+      href: 03-materiales.html
     - text: "EJEMPLOS/CASOS"
       icon: fa-download
       href: 05-mas-cosas.html
