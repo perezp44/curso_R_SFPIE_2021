@@ -64,4 +64,4 @@ Universitat de València
   - Documentos reproducibles con `rmarkdown`  
 
 
-- Tienes más información acerca del curso: logística, materiales, cronograma ... en las otras secciones de la web.
+- Tienes más información acerca del curso: logística, materiales, ... en las otras secciones de la web.

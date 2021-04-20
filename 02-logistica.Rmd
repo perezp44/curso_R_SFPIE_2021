@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Materiales de clase
 
-Durante el curso usaremos diferentes materiales (tutoriales, slides, ejemplos y casos), los tenéis disponible en la sección [Materiales](https://perezp44.github.io/curso_R_SFPIE_2021/03-materiales.html).
+Durante el curso usaremos diferentes materiales (tutoriales, slides, ejemplos y casos), los tenéis disponibles en la sección [Materiales](https://perezp44.github.io/curso_R_SFPIE_2021/03-materiales.html).
 
 
 <br>
