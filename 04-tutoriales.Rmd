@@ -1,0 +1,25 @@
+---
+title: "Materiales del curso"
+description: |
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Tutoriales y Slides
+
+- **Presentación**: [Slides]()
+
+- **Introducción a R-base**: [Tutorial]()
+
+- **Importación y exportación de datos**: [Tutorial]() y [slides]().
+
+- **Manejo de datos à la tidyverse**: [Tutorial]() y [slides]().
+
+- **Gráficos con `ggplot2`**: [Tutorial]()
+
+- **Documentos reproducibles con `rmarkdown`**: [Tutorial](). 
+
+
+## Casos y ejemplos

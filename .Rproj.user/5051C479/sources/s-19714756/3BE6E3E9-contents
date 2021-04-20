@@ -1,0 +1,28 @@
+---
+title: "Guía del curso"
+description: |
+  Algo más de información sobre el curso
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Como sabéis, el curso tiene una duración de 20 horas repartidas en 5 sesiones. Durante el curso se hace una introducción al uso de `r fontawesome::fa(name = "r-project", fill = "steelblue")` para hacer análisis de datos, quizás el título del curso debería ser: "Una introducción a la Ciencia de datos con R para PAS y PDI".
+
+- Se utiliza RStudio y se prioriza el uso del tidyverse.
+
+- El curso es eminentemente práctico, por lo que es realmente recomendable acudir al aula con un ordenador portátil.
+
+
+## Tópicos
+
+- Introducción a R-base
+- Importación (y exportación de datos)
+- Manejo de datos à la tidyverse con `dplyr` y `tidyr`
+- Gráficos con `ggplot2`
+- Documentos reproducibles con `rmarkdown`

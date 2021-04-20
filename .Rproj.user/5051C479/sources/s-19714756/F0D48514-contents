@@ -1,0 +1,232 @@
+---
+#title: "Macroenometrics (44343)"
+output:
+  html_document:
+    css: assets/styles_pjp.css
+    theme: united
+    highlight: monochrome 
+    number_sections: no
+    toc: true
+    toc_float: true
+---
+
+
+```{r, echo = FALSE}
+library(metathis)
+meta() %>% meta_description(
+    "Curso de introduccion a R"
+  ) %>% 
+  meta_name("github-repo" = "perezp44/intro-ds-20-21-web") %>% 
+  meta_viewport() %>% 
+  meta_social(
+    title = "Curso de introducción a R",
+    url = "https://perezp44.github.io/intro-ds-20-21-web/",
+    og_type = "course",
+    og_author = c("Pedro J. Pérez"))
+```
+
+
+<br>
+
+### Logística
+
+-------------------
+
+Esta sección sirve para poner en un mismo lugar todos los recursos y materiales que usaremos durante el curso. Al final de esta sección pondré bibliografía y/o materiales adicionales.
+
+
+<br>
+
+## Recursos
+
+- [**`Aula Virtual de la asignatura`**](https://aulavirtual.uv.es/course/view.php?id=9254){target="_blank"}: como Aula Virtual es el sitio oficial de la asignatura colgaré allí los anuncios de tipo "oficial". También colgaré en Aula Virtual los detalles sobre la evaluación. Además, si hiciera falta, allí podemos organizar reuniones virtuales a través de BBC (Black Board Collaborate).
+
+- [**`Etherpad`**](https://etherpad.wikimedia.org/p/curso_intro_DS_UV){target="_blank"}: durante el curso escribiremos código R. Esta etherpad nos permitirá compartir el código.
+
+- [**`Jitsi link to make e-meetings`**](https://meet.jit.si/intro-to-DS_UV_2020-21){target="_blank"}: Una room de Jitsi para hacer reuniones online. Seguramente la utilizaré para las tutorías online.
+
+
+- [**`Uploader`**](https://driveuploader.com/upload/x1Qx7fev79/){target="_blank"}: Un servicio que utilizaré para recoger vuestros trabajos. Ya os diré como funciona. Lo abriré cuando tenga que recoger trabajos.
+
+
+- [**`Cuestionario de Google`**](https://forms.gle/kvrZbuw6XtRDhki98){target="_blank"}: Generalmente recogeré los trabajos con el `uploader` o por mail, pero esa función también podría hacerla este cuestionario.
+
+
+<br>
+
+Estos 3 últimos es fácil que los usemos menos, pero per si de cas, aquí están:
+
+
+- [**`RStudio Cloud Project`**](https://rstudio.cloud/project/1543128){target="_blank"}: El año pasado este recurso nos resulto muy útil, pero ahora la versión gratuita tiene límite de tiempo, aunque de momento yo sí lo estoy usando para dar clase en el aula.
+
+
+- [**`Apuntes colaborativos en HackMD`**](https://hackmd.io/mLBp682ZTaWWKgN-gk35qg){target="_blank"}: para hacer apuntes colaborativos. Es como Google Docs pero en MD. Veremos si al final lo usamos, aún lo estoy probando. De momento la gente no se anima. la verdad es que lo he incentivado poco, bueno nada. Igual debería incentivarlo: se aprende mucho haciendo apuntes en común.
+
+- [**`Página del curso en Piazza`**](https://piazza.com/uv.es/fall2020/36494/home){target="_blank"}: es una plataforma que se  usa en muchos cursos para resolver cuestiones y "colaborar" en la resolución de tareas. Ya veremos si acabamos usándolo.
+
+
+
+----------------------
+
+<br>
+
+## Materiales de clase
+
+- [**`Tutoriales`**](https://perezp44.github.io/intro-ds-20-21-web/04-tutoriales.html): digamos que son los apuntes/libro oficial del curso. Tenéis que ir leyéndolos poco a poco. Algunas de las tareas a hacer en casa consistirán en leer secciones de estos tutoriales. Los puedes encontrar en la sección `Tutoriales` de esta misma web.
+
+- [**`Transparencias`**](https://perezp44.github.io/intro-ds-20-21-web/05-slides.html): las transparencias (o slides) que usaré para dar clase. Las puedes encontrar en la sección `Slides` de esta misma web.
+
+
+- [**`Ejemplos/Ejercicios`**](https://perezp44.github.io/intro-ds-20-21-web/06-ejemplos.html):  iré colgando conforme avancen las clases.
+
+
+
+----------------------
+
+<br>
+
+
+## Bibliografía
+
+La bibliografía que figura en la Guía Docente es:
+
+###### **Básica**
+
+- Grolemund, G., Wickham, H. (2019): R para Ciencia de Datos. <https://es.r4ds.hadley.nz/>
+
+- Grolemund, G., Wickham, H. (2016): R for Data Science, OReilly. <https://r4ds.had.co.nz/>
+
+-  Peng, R. D. (2016): Exploratory Data Analysis with R. Lean Publishing. <https://bookdown.org/rdpeng/exdata/>
+
+- James, G., Witten, E., Hastie T. y Tibshirani, R. (2015): An Introduction to Statistical Learning with applications in R.  <http://www-bcf.usc.edu/~gareth/ISL/>
+
+
+###### **Complementaria**
+
+- Ayala, G. (2015): Estadística básica. <https://www.uv.es/~ayala/docencia/nmr/nmr13.pdf>
+
+- Casas, P. (2019): Data Science Live Book.  <https://livebook.datascienceheroes.com/>
+
+- Coll, V. y Pérez P. J. (2017): Curso de introducción a R. <https://www.uv.es/pjperez/curso_R/index.html>
+
+- Gil Bellosta, C. G. (2018): R para profesionales de los datos: una introducción. <https://www.datanalytics.com/libro_r/>
+
+- Santana, A. y Hernández, C. M. (2016): R4ULPGC: Introducción a R.  <http://www.dma.ulpgc.es/profesores/personal/stat/cursoR4ULPGC/index.html>
+
+
+----------------------
+
+<br>
+
+
+## Más bibliografía/Recursos
+
+La comunidad R es muy dinámica y en general comparte sus materiales, lo que hace que los recursos para aprender R sean, exagerando un poco, casi infinitos. Es imposible abarcarlo todo, es una avalancha continúa de nuevas paquetes, análisis, cursos, libros, etc....
+
+Mas abajo tenéis un listado de recursos, pero, de todas formas, mira lo que dice Jesse Mostipak sobre aprender **#rstats**:
+
+<br>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">My <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> learning path:<br><br>1. Install R<br>2. Install RStudio<br>3. Google &quot;How do I [THING I WANT TO DO] in R?&quot;<br><br>Repeat step 3 ad infinitum.</p>&mdash; Jesse Mostipak (@kierisi) <a href="https://twitter.com/kierisi/status/898534740051062785?ref_src=twsrc%5Etfw">August 18, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<br>
+
+Este *cartoon*, en cierta manera, complementa el tweet anterior:
+
+
+
+```{r , echo=FALSE, fig.cap="From https://jonocarroll.github.io/ggeasy   , an adaptation of https://xkcd.com/1168/", eval = TRUE, fig.asp = 4/4, out.width = "95%", fig.align = "left"}
+knitr::include_graphics(here::here("imagenes", "01_Rob-you-use-R.png"))
+```
+
+<br>
+
+Además, como me gusta el tema: el siguiente tweet es la respuesta a \@tlyzawx que se quejaba en Twitter de que después de usar Phyton varios años, aún tuviese que buscar ayuda cada vez que usaba la librería *Matplotlib*. Le contesta \@dopplershift uno de los desarrolladores de la librería.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I have been using Python for 15 years and have been a matplotlib core developer for over 10. I google things about the library all the time.</p>&mdash; Ryan May (@dopplershift) <a href="https://twitter.com/dopplershift/status/1271614146312908800?ref_src=twsrc%5Etfw">June 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<br>
+
+-------------------
+
+
+
+
+
+
+    
+#### Recursos para buscar inspiración para tus proyectos
+    
+  - [R-weekly](https://rweekly.org/): cada semana envían un archivo con los mejores análisis hechos con R esa semana. Tienes que apuntarte [aquí](https://feedburner.google.com/fb/a/mailverify?uri=rweekly&loc=en_US).
+    
+  - [R-bloggers](https://www.r-bloggers.com/): Un agregador de blogs relacionados con R.
+    
+  - [Kaggle](https://www.kaggle.com/datasets): plataforma para aprender ML. Encontrarás datos y análisis de estos.
+  
+  - [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday): cada semana lanzan una competición de visualización con unos datos.
+
+<br>
+
+#### Más recursos
+
+  - [Quick-R](http://www.statmethods.net/)
+    
+  - [r-statistics.co](http://r-statistics.co/)
+  
+  - [Modern Drive](https://moderndive.com/): un libro, en realidad un bookdown, que me gusta.
+  
+  - [swirl](https://swirlstats.com/): swirl teaches you R programming and data science interactively, at your own pace, and right in the R console!
+
+  - [R views](https://rviews.rstudio.com/): Un blog de la comunidad R editado por RStudio. Cada mes saca un post con los mejores 40 paquetes de ese mes; por ejemplo, [aquí[(https://rviews.rstudio.com/2020/08/27/july-2020-top-40-new-cran-packages/)] tienes el de julio de 2020.
+
+  - [Stack Overflow](http://stackoverflow.com/questions/tagged/r): si al final acabas utilizando R para tus análisis, seguramente acabarás utilizando Stack Overflow. Es una comunidad de programadores, en la que muchas veces resolverás las dudas que te puedan surgir en tu aprendizaje sobre R. 
+
+<br>
+
+#### Propuestas para aprender R
+
+  - [How to get started with Data Science using R](https://www.r-bloggers.com/how-to-get-started-with-data-science-using-r/)
+
+  - [Tutorials for learning R](https://www.r-bloggers.com/how-to-learn-r-2/#h.nl3rvdr3ycsc)
+
+<br>
+
+#### Necesito un paquete para ...   
+
+  - [Listado sencillo](https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages)
+    
+  - [Listado completo de CRAN agrupado por temática](https://www.rdocumentation.org/taskviews#Bayesian)
+
+
+  - [AWESOME list de pkgs](https://github.com/qinwf/awesome-R)
+
+
+  - [Listado de pkgs agrupados por fase del análisis](https://github.com/rstudio/RStartHere?utm_content=buffercf5d8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+
+
+```{r, echo = FALSE,  eval = FALSE,  fig.asp = 1/2, out.width = "70%", fig.align = "center"}
+knitr::include_graphics("./imagenes/tt_0_data-science.png")
+```
+
+
+<br>
+
+#### Awesome list
+
+Mucha gente hace sus propias listas de recursos R, aquí tienes algunas:
+
+
+- [Awesome R Learning Resources](https://github.com/iamericfletcher/awesome-r-learning-resources)  
+
+- [Learning R resources](https://github.com/Joscelinrocha/Learning-R-Resources)
+
+- [www.learnr4free.com](https://www.learnr4free.com/)
+
+<br>
+
+
+
+<br><br>
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

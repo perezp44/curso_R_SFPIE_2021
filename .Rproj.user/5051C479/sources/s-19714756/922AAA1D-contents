@@ -1,0 +1,60 @@
+---
+title: "Bitacora (Tutoriales, BigData, 2020-21)"
+author: Pedro J. Pérez
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  html_document:
+    css: !expr here::here("assets", "my_css_file.css")  #- "styles_pjp.css"
+    theme: paper
+    highlight: textmate
+    self_contained: yes
+    number_sections: no
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+
+```{r chunk_setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE, message = FALSE, warning = FALSE, 
+                      cache = FALSE, cache.path = "/caches/", comment = "#>",
+                      #fig.width = 7, fig.height= 7,   
+                      #out.width = 7, out.height = 7, 
+                      # fig.asp = 7/9, out.width = "60%",  (lo q yo usaba)
+                      collapse = TRUE,  fig.show = "hold",
+                      fig.asp = 0.618, fig.width = 6, out.width = "70%", fig.align = "center")
+```
+
+
+```{r, echo = FALSE, message = FALSE}
+options(scipen = 999) #- quitar notación científica
+library(tidyverse)
+```
+
+<br>
+
+-----------------
+
+<br>
+
+Cosas a introducir en los tutoriales para el curso 2021-2022
+
+
+<br>
+
+----------------
+
+<br>
+
+## tt_06_ggplot2
+
+- Renovar (añadir) este link de los gráficos del área bajo la curva: <https://ggplot2tor.com/sampling_distribution/sampling_distribution/>
+
+- Mirar este curso: **FANTASTICO** de Clauss Wilke: <https://wilkelab.org/SDS375/>. El repo: <https://github.com/wilkelab/SDS375>. Es una Distill
+
+- Añadir esta referncia para graficos de linea: < A Detailed Guide to Plotting Line Graphs in R using ggplot geom_line: Michael Toth <https://michaeltoth.me/a-detailed-guide-to-plotting-line-graphs-in-r-using-ggplot-geom_line.html>
+
+
+

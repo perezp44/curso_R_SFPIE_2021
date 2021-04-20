@@ -1,0 +1,13 @@
+---
+title: "Cronograma"
+description: |
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+El curso tiene 20 horas, repartidas en 5 sesiones de 4 horas. El cronograma previsto es:
+
+- Miércoles 
+
