@@ -1,0 +1,25 @@
+---
+title: "Comprobación Instalación"
+author: "Tú"
+date: "7/9/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+Hola,
+
+si puedes leer esto y ves un meme después de "knittear", es que la instalación ha ido bien.
+
+```{r, echo = FALSE}
+library(meme)
+u <- system.file("success.jpg", package = "meme")
+meme(u, "SÍ q puedes!!!", "Tú puedes aprender R!!", size = 2.0, color = "purple")
+```
+
+
+
+
+Nos vemos en clase

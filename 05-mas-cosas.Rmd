@@ -1,47 +1,13 @@
 ---
-title: "About this website"
+title: "MáS recursos"
 description: |
-  Algo más de información sobre el blog y sobre mi.
+  
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Esta página web me va a servir principalmente para alojar algunos artículos en el/los blog's:  [Pedro J. Pérez blog](01_blog.html) y [R & flowers blog](02_Rflowers.html). 
+- [Guía de Instalación de R y RStudio](./mas-recursos/Instrucciones_instalacion-a.html){target="_blank"}
 
-La verdad es que **me gusta escribir posts**, tienes mucha más libertad que al escribir un informe o un artículo académico. Los posts **no tienen porque estar perfectos**, cuando te apetece los puedes dejar, aunque no estén perfectos ni acabados del todo.
-
-A pesar de que los posts no estén acabados, el pensar que alguien puede leerlos te hace pensar y reflexionar sobre lo que escribes, de forma que acaban siendo útiles, principalmente para uno mismo, para documentar análisis que has hecho o cosas que has aprendido que de otro modo olvidarías. 
-
-> Remember kids, the only difference between screwing around and science is writing it down  --- Adam Savage de [MythBusters](https://es.wikipedia.org/wiki/MythBusters)
-
-De hecho, ya llevo una larga **carrera como bloguero** ("guiño-guiño"). Aquí están algunos de mis anteriores blogs:
-
-
-- El primero lo hice allá en 2016, utilicé Jekyll y (es una historia larga) lo llamé [R & flowers](http://perezp44.github.io/). Hice la friolera de 10 posts, mi récord absoluto hasta el momento. 
-
-- El segundo lo creé en 2018. Me pasé a `blogdown` que usa Hugo. Lo llamé [R & flowers V](https://rflowers5.netlify.app/). Es una larga historia lo que les paso a los números intermedios.  Bajaron mis registros, sólo hice 6 posts.
-
-
-- En el tercero, ya en 2020, me pasé a Distill. Lo hice durante el confinamiento porque me pareció una buena idea hacer una página web para una asignatura, así que aproveche el tirón y creé [R & flowers 0.1.3](https://perezp44.github.io/my_blog_R-flowers-0.1.3/). Los registros se derrumbaron, sólo un post `r emo::ji("-1")`. Que queréis, estábamos en pandemia!! Además tenía que hacer una página web para dar clase online. Se quedaron varios posts a medio escribir, eran sobre temas sanitarios, camas en hospitales ... 
-
-
-- El cuarto, de 2021, es esta página web que estás viendo. Es una Distill webpage con 2 blogs. ¿De verdad te hacen falta 2 blogs? No, pero no sé que ha pasado. Creo que el segundo se ha creado solo, alguna espora!! Espero que tengan una larga vida. Vorem!!! De momento la temática principal, si no cambio, va a ser limpiar, sí limpiar, y analizar datos del INE. En cierta forma me relaja, es como hacer sudokus.
-
-Aparte de abrir y abandonar blogs ... también me gusta mucho trastear con datos y con R. Muchas veces lo hago por gusto, pero otras es por motivos profesionales o docentes. Por ejemplo, llevo dos años dando una asignatura con un nombre largito, pero que en realidad es un **curso de introducción a R**. Aquí está su página web: <https://perezp44.github.io/intro-ds-20-21-web/>. Tenéis que ver los trabajos que hicieron los estudiantes!!
-
-La web de la asignatura que hice rápido-rápido durante el confinamiento está [aquí](https://perezp44.github.io/VAR-models-web/index.html). Se parece mucho a la web del curso de R pero sólo visualmente.
-
-
-
-Quien sabe, igual acabo en Andorra como los blogueros, bueno, en realidad creo que eran youtubers o instagramers, whatever. Como [Benjamín Prado](https://twitter.com/pradobenjamin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) dice,  **Nunca es tarde!!**
-
-
-
-
-```{r, echo = FALSE,  out.width = "80%"}
-tweetrmd::tweet_embed("https://twitter.com/literlandweb1/status/1107275498026139650", theme = "dark", align = "center", dnt = TRUE, plain = TRUE, maxwidth = 684, omit_script = TRUE)
-```
-
-
+- [Listado de paquetes a instalar](./mas-recursos/paquetes-R-a-instalar.R)

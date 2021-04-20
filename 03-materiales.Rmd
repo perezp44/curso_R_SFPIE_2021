@@ -9,15 +9,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Tutoriales y Slides
 
-- **Presentación**: [Slides]()
+- **Presentación**: [Slides](){target="_blank"}  
 
-- **Introducción a R-base**: [Tutorial]()
+- **Introducción a R-base**: [Tutorial](){target="_blank"}  
 
-- **Importación y exportación de datos**: [Tutorial]() y [slides]().
+- **Importación y exportación de datos**: [Tutorial](){target="_blank"}   y [slides](./tutoriales/slides_05_cargar-datos.html){target="_blank"} .
 
-- **Manejo de datos à la tidyverse**: [Tutorial]() y [slides]().
+- **Manejo de datos à la tidyverse**: [Tutorial](./tutoriales/tt_05_data-munging){target="_blank"}   y [slides](){target="_blank"}  .
 
-- **Gráficos con `ggplot2`**: [Tutorial]()
+- **Gráficos con `ggplot2`**: [Tutorial](){target="_blank"}
 
 - **Documentos reproducibles con `rmarkdown`**: [Tutorial](). 
 
