@@ -1,7 +1,5 @@
 ---
 title: "MáS recursos"
-description: |
-  
 ---
 
 ```{r setup, include=FALSE}

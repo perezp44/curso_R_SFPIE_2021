@@ -13,13 +13,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - **Introducción a R-base**: [Tutorial](){target="_blank"}  
 
-- **Importación y exportación de datos**: [Tutorial](){target="_blank"}   y [slides](./tutoriales/slides_05_cargar-datos.html){target="_blank"} .
+- **Importación y exportación de datos**: [Tutorial](./tutoriales/tt_05_data-munging){target="_blank"}   y [slides](./tutoriales/slides_05_cargar-datos.html){target="_blank"} .
 
-- **Manejo de datos à la tidyverse**: [Tutorial](./tutoriales/tt_05_data-munging){target="_blank"}   y [slides](){target="_blank"}  .
+- **Manejo de datos à la tidyverse**: [Tutorial](./tutoriales/tt_05_data-munging){target="_blank"}   y [slides](./tutoriales/slides_05_cargar-datos.html){target="_blank"}  .
 
 - **Gráficos con `ggplot2`**: [Tutorial](){target="_blank"}
 
-- **Documentos reproducibles con `rmarkdown`**: [Tutorial](). 
+- **Documentos reproducibles con `rmarkdown`**: [Tutorial](./tutoriales/tt_05_data-munging). 
 
 
 ## Casos y ejemplos
