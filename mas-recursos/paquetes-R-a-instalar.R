@@ -4,10 +4,11 @@ install.packages("remotes") #- este paquete se necesita para instalar otros, por
 install.packages("eurostat")
 install.packages(c("ggthemes", "jtools", "tidyverse")) #- tb se puede poner un vector de pkgs
 #- si un paquete no está en CRAN, hay que hacer:
-remotes::install_github("xvrdm/ggrough")
 remotes::install_github("perezp44/pjpv2020.01")
+remotes::install_github("perezp44/pjpv.datos.01")
 #- Además hay paquetes como pacman, o librarian o pak que facilitan el instalar paquetes
 #- PERO no los voy a usar
+install.packages("sf")
 install.packages(c("rprojroot", "huxtable"))
 install.packages("ggpol")
 install.packages(c("corrplot", "essurvey", "rio", "sjlabelled", "sjPlot", "skimr", "summarytools", "visdat"))
@@ -59,3 +60,21 @@ install.packages(c("corrr", "DataExplorer", "estimatr", "explore", "factoextra",
 install.packages(c("ggspatial", "rnaturalearth", "rnaturalearthdata"))
 install.packages(c("leafem", "leafpm", "mapedit", "mapview"))
 install.packages(c("ggmap", "osmdata"))
+#---  les hago instalarse hasta AQUI -----------------------------------------------------------------------
+remotes::install_github("datalorax/equatiomatic")
+install.packages("psycho")
+install.packages("reportr")
+install.packages("rworldmap")
+install.packages("stationaRy")
+remotes::install_github("adam-gruer/victor")
+install.packages("reactable")
+remotes::install_github("juba/rmdformats")
+install.packages("googlePolylines")
+install.packages("geojsonsf")
+install.packages("geojsonlint")
+remotes::install_github("GIScience/openrouteservice-r")
+install.packages(c( "lattice", "grid", "graphics", "carData","gridGraphics", "timetk", "fmsb", "vcd","ggmosaic", "wordcloud","maptools", "RColorBrewer", "cartogram", "igraph", "ggraph"))
+install.packages("actuar")
+install.packages("ChainLadder", "VGAM", "compoisson", "pscl")
+remotes::install_github("perezp44/LAU2boundaries4spain")
+
