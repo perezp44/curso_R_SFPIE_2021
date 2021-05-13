@@ -11,6 +11,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - **Presentación**: [Slides](){target="_blank"}  
 
+- **Primeros pasos**: [Tutorial](){target="_blank"}  
+
 - **Introducción a R-base**: [Tutorial](){target="_blank"}  
 
 - **Importación y exportación de datos**: [Tutorial](./tutoriales/tt_05_data-munging){target="_blank"}   y [slides](./tutoriales/slides_05_cargar-datos.html){target="_blank"} .
@@ -23,3 +25,21 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 ## Casos y ejemplos
+
+Los ejemplos y casos que hagamos durante el curso muchas veces provendrán de los propios tutoriales.
+
+En clase vamos a trabajar con uno o varios `Rprojects`. El primero de ellos será el Rproject llamado `our_project_SFPIE`. Es solo una carpeta con algunos ejemplos, pero hará que nuestro código sea reproducible. 
+
+Para descargar el Rproject tienes que ejecutar en RStudio las siguientes instrucciones:
+
+
+
+```{r, eval = FALSE, echo = TRUE}
+file_to_download <- "our_project_SFPIE.zip" 
+my_domain <- "https://github.com/perezp44/curso_R_SFPIE_2021/raw/master/ejemplos/"
+my_url <- paste0(my_domain, file_to_download)
+download.file(my_url, destfile = file_to_download)
+unzip(zipfile = file_to_download)
+file.remove(file_to_download)
+```
+

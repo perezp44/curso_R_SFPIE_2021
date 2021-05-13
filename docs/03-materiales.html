@@ -2125,6 +2125,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h2 id="tutoriales-y-slides">Tutoriales y Slides</h2>
 <ul>
 <li><p><strong>Presentación</strong>: <a href="" target="_blank">Slides</a></p></li>
+<li><p><strong>Primeros pasos</strong>: <a href="" target="_blank">Tutorial</a></p></li>
 <li><p><strong>Introducción a R-base</strong>: <a href="" target="_blank">Tutorial</a></p></li>
 <li><p><strong>Importación y exportación de datos</strong>: <a href="./tutoriales/tt_05_data-munging" target="_blank">Tutorial</a> y <a href="./tutoriales/slides_05_cargar-datos.html" target="_blank">slides</a> .</p></li>
 <li><p><strong>Manejo de datos à la tidyverse</strong>: <a href="./tutoriales/tt_05_data-munging" target="_blank">Tutorial</a> y <a href="./tutoriales/slides_05_cargar-datos.html" target="_blank">slides</a> .</p></li>
@@ -2132,6 +2133,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li><p><strong>Documentos reproducibles con <code>rmarkdown</code></strong>: <a href="./tutoriales/tt_05_data-munging">Tutorial</a>.</p></li>
 </ul>
 <h2 id="casos-y-ejemplos">Casos y ejemplos</h2>
+<p>Los ejemplos y casos que hagamos durante el curso muchas veces provendrán de los propios tutoriales.</p>
+<p>En clase vamos a trabajar con uno o varios <code>Rprojects</code>. El primero de ellos será el Rproject llamado <code>our_project_SFPIE</code>. Es solo una carpeta con algunos ejemplos, pero hará que nuestro código sea reproducible.</p>
+<p>Para descargar el Rproject tienes que ejecutar en RStudio las siguientes instrucciones:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>file_to_download</span> <span class='op'>&lt;-</span> <span class='st'>"our_project_SFPIE.zip"</span> 
+<span class='va'>my_domain</span> <span class='op'>&lt;-</span> <span class='st'>"https://github.com/perezp44/curso_R_SFPIE_2021/raw/master/ejemplos/"</span>
+<span class='va'>my_url</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/paste.html'>paste0</a></span><span class='op'>(</span><span class='va'>my_domain</span>, <span class='va'>file_to_download</span><span class='op'>)</span>
+<span class='fu'><a href='https://rdrr.io/r/utils/download.file.html'>download.file</a></span><span class='op'>(</span><span class='va'>my_url</span>, destfile <span class='op'>=</span> <span class='va'>file_to_download</span><span class='op'>)</span>
+<span class='fu'><a href='https://rdrr.io/r/utils/unzip.html'>unzip</a></span><span class='op'>(</span>zipfile <span class='op'>=</span> <span class='va'>file_to_download</span><span class='op'>)</span>
+<span class='fu'><a href='https://rdrr.io/r/base/files.html'>file.remove</a></span><span class='op'>(</span><span class='va'>file_to_download</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

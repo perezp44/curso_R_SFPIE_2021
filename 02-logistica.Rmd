@@ -15,9 +15,9 @@ knitr::opts_chunk$set(echo = FALSE)
 - [**`RStudio Cloud Project`**](https://rstudio.cloud/project/1543128){target="_blank"}. Si todo va bien, si todos venís a clase con los programas instalados, no nos hará falta y no lo usaremos.
 
 
-- [Aula virtual, grupo de PAS](https://aulavirtual.uv.es/course/view.php?id=18628){target="_blank"}  
+- [Aula virtual, grupo de **PAS**](https://aulavirtual.uv.es/course/view.php?id=18628){target="_blank"}  
 
-- [Aula virtual, grupo de PDI](https://aulavirtual.uv.es/course/view.php?id=18627){target="_blank"}
+- [Aula virtual, grupo de **PDI**](https://aulavirtual.uv.es/course/view.php?id=18627){target="_blank"}
 
 
 
@@ -62,7 +62,7 @@ Mas abajo tenéis un listado de recursos, pero, de todas formas, mira lo que dic
   
   - [swirl](https://swirlstats.com/): swirl teaches you R programming and data science interactively, at your own pace, and right in the R console!
 
-  - [R views](https://rviews.rstudio.com/): Un blog de la comunidad R editado por RStudio. Cada mes saca un post con los mejores 40 paquetes de ese mes; por ejemplo, [aquí[(https://rviews.rstudio.com/2020/08/27/july-2020-top-40-new-cran-packages/)] tienes el de julio de 2020.
+  - [R views](https://rviews.rstudio.com/): Un blog de la comunidad R editado por RStudio. Cada mes saca un post con los mejores 40 paquetes de ese mes; por ejemplo, [aquí](https://rviews.rstudio.com/2020/08/27/july-2020-top-40-new-cran-packages/) tienes el de julio de 2020.
 
   - [Stack Overflow](http://stackoverflow.com/questions/tagged/r): si al final acabas utilizando R para tus análisis, seguramente acabarás utilizando Stack Overflow. Es una comunidad de programadores, en la que muchas veces resolverás las dudas que te puedan surgir en tu aprendizaje sobre R. 
 
