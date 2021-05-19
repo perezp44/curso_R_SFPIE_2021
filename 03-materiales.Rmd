@@ -9,19 +9,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Tutoriales y Slides
 
-- **Presentación**: [Slides](){target="_blank"}  
+- **Presentación**: [Slides](./tutoriales/slides_01_intro_v2.html){target="_blank"}  
 
-- **Primeros pasos**: [Tutorial](){target="_blank"}  
+- **Primeros pasos** e **Introducción a R-Base**: [Tutorial](./tutoriales/tt_1_introduccion_R_base.html){target="_blank"}  
 
-- **Introducción a R-base**: [Tutorial](){target="_blank"}  
+- **Importación y exportación de datos**: [Slides](./tutoriales/slides_05_cargar-datos.html){target="_blank"} .
 
-- **Importación y exportación de datos**: [Tutorial](./tutoriales/tt_05_data-munging){target="_blank"}   y [slides](./tutoriales/slides_05_cargar-datos.html){target="_blank"} .
+- **Manejo de datos à la tidyverse**: [Tutorial](./tutoriales/tt_05_data-munging.html){target="_blank"}   y [Slides](./tutoriales/slides_05_cargar-datos.html){target="_blank"}  .
 
-- **Manejo de datos à la tidyverse**: [Tutorial](./tutoriales/tt_05_data-munging){target="_blank"}   y [slides](./tutoriales/slides_05_cargar-datos.html){target="_blank"}  .
+- **Gráficos con `ggplot2`**: [Tutorial](./tutoriales/tt_6_introduccion_ggplot2.html){target="_blank"}
 
-- **Gráficos con `ggplot2`**: [Tutorial](){target="_blank"}
-
-- **Documentos reproducibles con `rmarkdown`**: [Tutorial](./tutoriales/tt_05_data-munging). 
+- **Documentos reproducibles con `rmarkdown`**: [Tutorial](./tutoriales/tt_07_Rmarkdown_SFPIE.html). 
 
 
 ## Casos y ejemplos

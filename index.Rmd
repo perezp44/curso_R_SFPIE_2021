@@ -19,8 +19,9 @@ site: distill::distill_website
 
 **Bienvenidos**  a la web del curso de introducción a R, que se impartirá en mayo-junio de 2021 en el SFPIE de la **Universitat de València**. 
 
-El curso tiene como objetivo proporcionar a los participantes conocimientos básicos acerca del lenguaje de programación R para el desarrollo de la **actividad docente e investigadora**.
+Es un **curso presencial** con 20 horas de docencia. El objetivo principal es proporcionar a los participantes conocimientos básicos acerca del lenguaje de programación R para el desarrollo de la **actividad docente e investigadora**.
 
+El curso es de nivel introductorio, está pensado para gente con nivel cero en R, y está orientado a usar R para analizar datos. Se utiliza un enfoque actual (**tidyverse**) por lo que puede ser también de utilidad a gente que se maneja bien con R pero con un enfoque más tradicional (R-base). Se hace también hincapié en la utilidad de R y su ecosistema en la  **investigación reproducible**.
 
 Los **profesores** del curso son:
 
@@ -58,7 +59,7 @@ Universitat de València
 - Los principales tópicos a tratar son:  
 
   - Introducción a R-base  
-  - Importación (y exportación de datos)  
+  - Importación (y exportación) de datos 
   - Manejo de datos à la tidyverse con `dplyr` y `tidyr`  
   - Gráficos con `ggplot2`  
   - Documentos reproducibles con `rmarkdown`  

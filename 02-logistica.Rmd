@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [**`Etherpad`**](https://etherpad.wikimedia.org/p/curso_intro_DS_UV){target="_blank"}: durante el curso escribiremos código R. Esta etherpad nos permitirá compartir el código.
 
-- [**`RStudio Cloud Project`**](https://rstudio.cloud/project/1543128){target="_blank"}. Si todo va bien, si todos venís a clase con los programas instalados, no nos hará falta y no lo usaremos.
+- [**`RStudio Cloud Project`**](https://rstudio.cloud/project/2560545){target="_blank"}. Si todo va bien, si todos venís a clase con los programas instalados, no nos hará falta y no lo usaremos.
 
 
 - [Aula virtual, grupo de **PAS**](https://aulavirtual.uv.es/course/view.php?id=18628){target="_blank"}  
