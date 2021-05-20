@@ -7,6 +7,7 @@ exclude: ["*.Rmd", "*.csv", "*.xlsx"]
 favicon: imagenes/uv_favicon.ico
 base_url: https://perezp44.github.io/curso_R_SFPIE_2021         
 repository_url: https://github.com/perezp44/curso_R_SFPIE_2021   
+google_analytics:  "G-7YYSE6ED4R"           
 creative_commons: CC BY
 navbar:
   search: true
