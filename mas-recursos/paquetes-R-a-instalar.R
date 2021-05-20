@@ -1,12 +1,12 @@
 #- paquetes de R a instalar ----------------------------
-#- la forma típica  de instalar paquetes de CRAN es:
+#- la forma tipica  de instalar paquetes de CRAN es:
 install.packages("remotes")
 install.packages("eurostat")
 install.packages(c("ggthemes", "jtools", "tidyverse")) #- tb se puede poner un vector de pkgs
 #- si un paquete no está en CRAN, hay que hacer:
 remotes::install_github("perezp44/pjpv2020.01")
 remotes::install_github("perezp44/pjpv.datos.01")
-#- Además hay paquetes como pacman, o librarian o pak que facilitan el instalar paquetes
+#- Ademas hay paquetes como pacman, o librarian o pak que facilitan el instalar paquetes
 #- PERO no los voy a usar
 install.packages("sf")
 install.packages(c("rprojroot", "huxtable"))

@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
 Hola,
 
-si puedes leer esto y ves un meme después de "knittear", es que la instalación ha ido bien.
+si puedes leer esto y ves un meme después de "knittear", es que la instalacion ha ido bien.
 
 ```{r, echo = FALSE}
 library(meme)
