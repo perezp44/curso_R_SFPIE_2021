@@ -52,7 +52,7 @@ Universitat de València
 
 ### Más información sobre el curso
 
-- Durante el curso se hace una introducción al uso de `r fontawesome::fa(name = "r-project", fill = "steelblue")` para hacer análisis de datos,
+- Durante el curso se hace una introducción al uso de `r fontawesome::fa(name = "r-project", fill = "steelblue")` para hacer análisis de datos.
 
 - El curso tiene un enfoque fundamentalmente práctico y se utiliza RStudio como interfaz para acceder a R. 
 
