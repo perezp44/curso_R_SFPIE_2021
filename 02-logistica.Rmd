@@ -32,15 +32,15 @@ Durante el curso usaremos diferentes materiales (tutoriales, slides, ejemplos y 
 
 Dos fantásticos libros:
 
-- Grolemund, G., Wickham, H. (2016): R for Data Science, OReilly. <https://r4ds.had.co.nz/>
+- Grolemund, G., Wickham, H. (2016): R for Data Science, OReilly. <https://r4ds.had.co.nz/>{target="_blank"}
 
--  Peng, R. D. (2016): Exploratory Data Analysis with R. Lean Publishing. <https://bookdown.org/rdpeng/exdata/>
+-  Peng, R. D. (2016): Exploratory Data Analysis with R. Lean Publishing. <https://bookdown.org/rdpeng/exdata/>{target="_blank"}
 
 Dos agregadores de blogs sobre R:
 
- - [R-weekly](https://rweekly.org/): cada semana envían un archivo con los mejores análisis hechos con R esa semana. Tienes que apuntarte [aquí](https://feedburner.google.com/fb/a/mailverify?uri=rweekly&loc=en_US).
+ - [R-weekly](https://rweekly.org/){target="_blank"}: cada semana envían un archivo con los mejores análisis hechos con R esa semana. Tienes que apuntarte [aquí](https://feedburner.google.com/fb/a/mailverify?uri=rweekly&loc=en_US).
     
-- [R-bloggers](https://www.r-bloggers.com/): Un agregador de blogs relacionados con R.
+- [R-bloggers](https://www.r-bloggers.com/){target="_blank"}: Un agregador de blogs relacionados con R.
     
 
 ## Más bibliografía/Recursos
@@ -56,37 +56,37 @@ Mas abajo tenéis un listado de recursos, pero, de todas formas, mira lo que dic
 
 #### Más recursos
 
-  - [Quick-R](http://www.statmethods.net/)
+  - [Quick-R](http://www.statmethods.net/){target="_blank"}
     
-  - [r-statistics.co](http://r-statistics.co/)
+  - [r-statistics.co](http://r-statistics.co/){target="_blank"}
   
   - [swirl](https://swirlstats.com/): swirl teaches you R programming and data science interactively, at your own pace, and right in the R console!
 
-  - [R views](https://rviews.rstudio.com/): Un blog de la comunidad R editado por RStudio. Cada mes saca un post con los mejores 40 paquetes de ese mes; por ejemplo, [aquí](https://rviews.rstudio.com/2020/08/27/july-2020-top-40-new-cran-packages/) tienes el de julio de 2020.
+  - [R views](https://rviews.rstudio.com/){target="_blank"}: Un blog de la comunidad R editado por RStudio. Cada mes saca un post con los mejores 40 paquetes de ese mes; por ejemplo, [aquí](https://rviews.rstudio.com/2020/08/27/july-2020-top-40-new-cran-packages/) tienes el de julio de 2020.
 
-  - [Stack Overflow](http://stackoverflow.com/questions/tagged/r): si al final acabas utilizando R para tus análisis, seguramente acabarás utilizando Stack Overflow. Es una comunidad de programadores, en la que muchas veces resolverás las dudas que te puedan surgir en tu aprendizaje sobre R. 
+  - [Stack Overflow](http://stackoverflow.com/questions/tagged/r){target="_blank"}: si al final acabas utilizando R para tus análisis, seguramente acabarás utilizando Stack Overflow. Es una comunidad de programadores, en la que muchas veces resolverás las dudas que te puedan surgir en tu aprendizaje sobre R. 
 
 <br>
 
 #### Propuestas para aprender R
 
-  - [How to get started with Data Science using R](https://www.r-bloggers.com/how-to-get-started-with-data-science-using-r/)
+  - [How to get started with Data Science using R](https://www.r-bloggers.com/how-to-get-started-with-data-science-using-r/){target="_blank"}
 
-  - [Tutorials for learning R](https://www.r-bloggers.com/how-to-learn-r-2/#h.nl3rvdr3ycsc)
+  - [Tutorials for learning R](https://www.r-bloggers.com/how-to-learn-r-2/#h.nl3rvdr3ycsc){target="_blank"}
 
 <br>
 
 #### Necesito un paquete para ...   
 
-  - [Listado sencillo](https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages)
+  - [Listado sencillo](https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages){target="_blank"}
     
-  - [Listado completo de CRAN agrupado por temática](https://www.rdocumentation.org/taskviews#Bayesian)
+  - [Listado completo de CRAN agrupado por temática](https://www.rdocumentation.org/taskviews#Bayesian){target="_blank"}
 
 
-  - [AWESOME list de pkgs](https://github.com/qinwf/awesome-R)
+  - [AWESOME list de pkgs](https://github.com/qinwf/awesome-R){target="_blank"}
 
 
-  - [Listado de pkgs agrupados por fase del análisis](https://github.com/rstudio/RStartHere?utm_content=buffercf5d8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+  - [Listado de pkgs agrupados por fase del análisis](https://github.com/rstudio/RStartHere?utm_content=buffercf5d8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer){target="_blank"}
 
 
 ```{r, echo = FALSE,  eval = FALSE,  fig.asp = 1/2, out.width = "70%", fig.align = "center"}
@@ -101,11 +101,11 @@ knitr::include_graphics("./imagenes/tt_0_data-science.png")
 Mucha gente hace sus propias listas de recursos R, aquí tienes algunas:
 
 
-- [Awesome R Learning Resources](https://github.com/iamericfletcher/awesome-r-learning-resources)  
+- [Awesome R Learning Resources](https://github.com/iamericfletcher/awesome-r-learning-resources){target="_blank"}  
 
-- [Learning R resources](https://github.com/Joscelinrocha/Learning-R-Resources)
+- [Learning R resources](https://github.com/Joscelinrocha/Learning-R-Resources){target="_blank"}
 
-- [www.learnr4free.com](https://www.learnr4free.com/)
+- [www.learnr4free.com](https://www.learnr4free.com/){target="_blank"}
 
 <br>
 

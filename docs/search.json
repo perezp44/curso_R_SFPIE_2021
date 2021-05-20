@@ -5,34 +5,34 @@
       "title": "Logística",
       "author": [],
       "contents": "\n\nContents\nRecursos\nMateriales de clase\nMás materiales\nMás bibliografía/Recursos\n\nRecursos\nEtherpad: durante el curso escribiremos código R. Esta etherpad nos permitirá compartir el código.\nRStudio Cloud Project. Si todo va bien, si todos venís a clase con los programas instalados, no nos hará falta y no lo usaremos.\nAula virtual, grupo de PAS\nAula virtual, grupo de PDI\nMateriales de clase\nDurante el curso usaremos diferentes materiales (tutoriales, slides, ejemplos y casos), los tenéis disponibles en la sección Materiales.\n\nMás materiales\nDos fantásticos libros:\nGrolemund, G., Wickham, H. (2016): R for Data Science, OReilly. https://r4ds.had.co.nz/\nPeng, R. D. (2016): Exploratory Data Analysis with R. Lean Publishing. https://bookdown.org/rdpeng/exdata/\nDos agregadores de blogs sobre R:\nR-weekly: cada semana envían un archivo con los mejores análisis hechos con R esa semana. Tienes que apuntarte aquí.\nR-bloggers: Un agregador de blogs relacionados con R.\nMás bibliografía/Recursos\nLa comunidad R es muy dinámica y en general comparte sus materiales, lo que hace que los recursos para aprender R sean, exagerando un poco, casi infinitos. Es imposible abarcarlo todo, es una avalancha continúa de nuevas paquetes, análisis, cursos, libros, etc….\nMas abajo tenéis un listado de recursos, pero, de todas formas, mira lo que dice Jesse Mostipak sobre aprender #rstats:\n\n\n\nMy #rstats learning path:1. Install R2. Install RStudio3. Google “How do I [THING I WANT TO DO] in R?”Repeat step 3 ad infinitum.\n\n— Jesse Mostipak (@kierisi) August 18, 2017\n\nMás recursos\nQuick-R\nr-statistics.co\nswirl: swirl teaches you R programming and data science interactively, at your own pace, and right in the R console!\nR views: Un blog de la comunidad R editado por RStudio. Cada mes saca un post con los mejores 40 paquetes de ese mes; por ejemplo, aquí tienes el de julio de 2020.\nStack Overflow: si al final acabas utilizando R para tus análisis, seguramente acabarás utilizando Stack Overflow. Es una comunidad de programadores, en la que muchas veces resolverás las dudas que te puedan surgir en tu aprendizaje sobre R.\n\nPropuestas para aprender R\nHow to get started with Data Science using R\nTutorials for learning R\n\nNecesito un paquete para …\nListado sencillo\nListado completo de CRAN agrupado por temática\nAWESOME list de pkgs\nListado de pkgs agrupados por fase del análisis\n\n\n\n\nAwesome list\nMucha gente hace sus propias listas de recursos R, aquí tienes algunas:\nAwesome R Learning Resources\nLearning R resources\nwww.learnr4free.com\n\n\n\n\n",
-      "last_modified": "2021-05-19T22:44:47+02:00"
+      "last_modified": "2021-05-20T10:39:05+02:00"
     },
     {
       "path": "03-materiales.html",
       "title": "Materiales del curso",
       "author": [],
-      "contents": "\n\nContents\nTutoriales y Slides\nCasos y ejemplos\n\nTutoriales y Slides\nPresentación: Slides\nPrimeros pasos e Introducción a R-Base: Tutorial\nImportación y exportación de datos: Slides .\nManejo de datos à la tidyverse: Tutorial y Slides .\nGráficos con ggplot2: Tutorial\nDocumentos reproducibles con rmarkdown: Tutorial.\nCasos y ejemplos\nLos ejemplos y casos que hagamos durante el curso muchas veces provendrán de los propios tutoriales.\nEn clase vamos a trabajar con uno o varios Rprojects. El primero de ellos será el Rproject llamado our_project_SFPIE. Es solo una carpeta con algunos ejemplos, pero hará que nuestro código sea reproducible.\nPara descargar el Rproject tienes que ejecutar en RStudio las siguientes instrucciones:\n\n\nfile_to_download <- \"our_project_SFPIE.zip\" \nmy_domain <- \"https://github.com/perezp44/curso_R_SFPIE_2021/raw/master/ejemplos/\"\nmy_url <- paste0(my_domain, file_to_download)\ndownload.file(my_url, destfile = file_to_download)\nunzip(zipfile = file_to_download)\nfile.remove(file_to_download)\n\n\n\n\n\n\n",
-      "last_modified": "2021-05-19T22:44:48+02:00"
+      "contents": "\n\nContents\nTutoriales y Slides\nCasos y ejemplos\n\nTutoriales y Slides\nPresentación: Slides\nPrimeros pasos e Introducción a R-Base: Tutorial\nImportación y exportación de datos: Slides .\nManejo de datos à la tidyverse: Tutorial y Slides .\nGráficos con ggplot2: Tutorial\nDocumentos reproducibles con rmarkdown: Tutorial.\nCasos y ejemplos\nLos ejemplos y casos que hagamos durante el curso muchas veces provendrán de los propios tutoriales.\nEn clase vamos a trabajar con uno o varios Rprojects. El primero de ellos será el Rproject llamado our_project_SFPIE. Es solo una carpeta con algunos ejemplos, pero hará que nuestro código sea reproducible.\nPara descargar el Rproject tienes que ejecutar en RStudio las siguientes instrucciones:\n\n\nfile_to_download <- \"our_project_SFPIE.zip\" \nmy_domain <- \"https://github.com/perezp44/curso_R_SFPIE_2021/raw/master/ejemplos/\"\nmy_url <- paste0(my_domain, file_to_download)\ndownload.file(my_url, destfile = file_to_download)\nunzip(zipfile = file_to_download)\nfile.remove(file_to_download)\n\n\n\nLo haremos todos juntos el primer día de clase.\n\n\n\n",
+      "last_modified": "2021-05-20T10:39:06+02:00"
     },
     {
       "path": "05-mas-cosas.html",
       "title": "MáS recursos",
       "author": [],
       "contents": "\nGuía de Instalación de R y RStudio\nListado de paquetes a instalar\n\n\n\n",
-      "last_modified": "2021-05-19T22:44:48+02:00"
+      "last_modified": "2021-05-20T10:39:06+02:00"
     },
     {
       "path": "index.html",
       "title": "Curso de Introducción a R (SFPIE, UV. 2021)",
       "author": [],
       "contents": "\n\nContents\nMás información sobre el curso\n\n\n.col2 {\n    columns: 2 200px;         /* number of columns and width in pixels*/\n    -webkit-columns: 2 200px; /* chrome, safari */\n    -moz-columns: 2 200px;    /* firefox */\n  }\n.col3 {\n    columns: 3 100px;\n    -webkit-columns: 3 100px;\n    -moz-columns: 3 100px;\n  }  \nBienvenidos a la web del curso de introducción a R, que se impartirá en mayo-junio de 2021 en el SFPIE de la Universitat de València.\nEs un curso presencial con 20 horas de docencia. El objetivo principal es proporcionar a los participantes conocimientos básicos acerca del lenguaje de programación R para el desarrollo de la actividad docente e investigadora.\nEl curso es de nivel introductorio, está pensado para gente con nivel cero en R, y está orientado a usar R para analizar datos. Se utiliza un enfoque actual (tidyverse) por lo que puede ser también de utilidad a gente que se maneja bien con R pero con un enfoque más tradicional (R-base). Se hace también hincapié en la utilidad de R y su ecosistema en la investigación reproducible.\nLos profesores del curso son:\n\n\n\n\n\nVicente Coll. vicente.coll@uv.es\nDepartamento de Economía Aplicada Universitat de València\n\n\n\n\n\nPedro J. Pérez. pedro.j.perez@uv.es Departamento de Análisis Económico Universitat de València\n\n\n\nMás información sobre el curso\nDurante el curso se hace una introducción al uso de  para hacer análisis de datos,\nEl curso tiene un enfoque fundamentalmente práctico y se utiliza RStudio como interfaz para acceder a R.\nLos principales tópicos a tratar son:\nIntroducción a R-base\nImportación (y exportación) de datos\nManejo de datos à la tidyverse con dplyr y tidyr\nGráficos con ggplot2\nDocumentos reproducibles con rmarkdown\n\nTienes más información acerca del curso: logística, materiales, … en las otras secciones de la web.\n\n\n\n",
-      "last_modified": "2021-05-19T22:44:49+02:00"
+      "last_modified": "2021-05-20T10:39:07+02:00"
     },
     {
       "path": "README.html",
       "author": [],
       "contents": "\nRepo para alojar el source code de la página web del curso de introducción a R, SFPIE 2001, Universitat de València\nLa página web puede verse aquí: https://perezp44.github.io/curso_R_SFPIE_2021/\n\n\n",
-      "last_modified": "2021-05-19T22:44:49+02:00"
+      "last_modified": "2021-05-20T10:39:07+02:00"
     }
   ],
   "collections": []

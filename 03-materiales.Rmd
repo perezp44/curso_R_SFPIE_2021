@@ -31,7 +31,6 @@ En clase vamos a trabajar con uno o varios `Rprojects`. El primero de ellos ser√
 Para descargar el Rproject tienes que ejecutar en RStudio las siguientes instrucciones:
 
 
-
 ```{r, eval = FALSE, echo = TRUE}
 file_to_download <- "our_project_SFPIE.zip" 
 my_domain <- "https://github.com/perezp44/curso_R_SFPIE_2021/raw/master/ejemplos/"
@@ -41,3 +40,4 @@ unzip(zipfile = file_to_download)
 file.remove(file_to_download)
 ```
 
+Lo haremos todos juntos el primer d√≠a de clase.
