@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - **Importación y exportación de datos**: [Slides](./tutoriales/slides_05_cargar-datos.html){target="_blank"} .
 
-- **Manejo de datos à la tidyverse**: [Tutorial](./tutoriales/tt_05_data-munging.html){target="_blank"}   y [Slides](./tutoriales/slides_05_cargar-datos.html){target="_blank"}  .
+- **Manejo de datos à la tidyverse**: [Tutorial](./tutoriales/tt_05_data-munging.html){target="_blank"}   y [Slides](./tutoriales/slides_05_data-munging.html){target="_blank"}  .
 
 - **Gráficos con `ggplot2`**: [Tutorial](./tutoriales/tt_6_introduccion_ggplot2.html){target="_blank"}
 
