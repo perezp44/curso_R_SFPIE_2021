@@ -7,6 +7,9 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+
+(Puedes descargarte todos los tutoriales y materiales [aquí](./ejemplos/Materiales_curso_SFPIE.zip))
+
 ## Tutoriales y Slides
 
 - **Presentación**: [Slides](./tutoriales/slides_01_intro_v2.html){target="_blank"}  
