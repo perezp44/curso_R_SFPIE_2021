@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-(Puedes descargarte todos los tutoriales y materiales [aquí](./ejemplos/Materiales_curso_SFPIE.zip))
+(Puedes descargar todos los tutoriales y materiales [aquí](./ejemplos/Materiales_curso_SFPIE.zip))
 
 ## Tutoriales y Slides
 
