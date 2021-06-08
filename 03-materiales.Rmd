@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - **Gráficos con `ggplot2`**: [Tutorial](./tutoriales/tt_6_introduccion_ggplot2.html){target="_blank"}
 
-- **Documentos reproducibles con `rmarkdown`**: [Tutorial](./tutoriales/tt_07_Rmarkdown_SFPIE.html). 
+- **Documentos reproducibles con `rmarkdown`**: [Tutorial](./tutoriales/tt_07_Rmarkdown_SFPIE.html){target="_blank"} y [Slides](./tutoriales/slides_07_rmarkdown.html){target="_blank"}  .
 
 
 ## Casos y ejemplos
